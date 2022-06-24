@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
 
   return (
-    <div className='gpt3_navbar'>
+    <div className='gpt3_navbar navbar fixed-top'>
       <div className='gpt3_navbar-links'>
         <div className='gpt3_navbar-links_logo'>
           <img src={logo} alt='logo' />
@@ -17,9 +17,10 @@ const Navbar = () => {
         <div className='gpt3_navbar-links_container'>
           <p><a href="#home">Home</a></p>
           <p><a href="#wgpt3">What is GPT3?</a></p>
+          <p><a href="#features">Case Studies</a></p>
           <p><a href="#possibility">Open AI</a></p>
-          <p><a href="#featuers">Case Studies</a></p>
           <p><a href="#blog">Library</a></p>
+          <p><a href="#footer">Contact</a></p>
         </div>
       </div>
       <div className='gpt3_navbar-sign'>
@@ -36,9 +37,10 @@ const Navbar = () => {
             <div className='gpt3_navbar-menu_container-links'>
               <p><a href="#home">Home</a></p>
               <p><a href="#wgpt3">What is GPT3?</a></p>
+              <p><a href="#features">Case Studies</a></p>
               <p><a href="#possibility">Open AI</a></p>
-              <p><a href="#featuers">Case Studies</a></p>
               <p><a href="#blog">Library</a></p>
+              <p><a href="#footer">Contact</a></p>
             </div>
             <div className="gpt3_navbar-menu_container-links-sign">
               <p>Sign in</p>

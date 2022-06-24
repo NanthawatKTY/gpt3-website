@@ -3,8 +3,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding: 2rem 6rem;
+    /* position: fixed; */
+    z-index: 100;
+    padding: 1rem 6rem;
+    background:#031b34c9;
 }
 
 .gpt3_navbar-links {

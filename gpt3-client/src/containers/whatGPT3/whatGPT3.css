@@ -1,6 +1,7 @@
 .gpt3__wgpt3{
     display: flex;
     flex-direction: column;
+    
 
     padding: 2rem;
     background: var(--color-footer);
@@ -59,8 +60,8 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
-    cursor: pointer;
     color: var(--color-subtext);
+    cursor: pointer;
 }
 
 .gpt3__wgpt3-container {
